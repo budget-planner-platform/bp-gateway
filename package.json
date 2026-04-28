@@ -1,0 +1,37 @@
+{
+  "name": "bp-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budget-planner-platform/bp-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/budget-planner-platform/bp-gateway/issues"
+  },
+  "homepage": "https://github.com/budget-planner-platform/bp-gateway#readme",
+  "dependencies": {
+    "@apollo/server": "^5.5.0",
+    "@grpc/grpc-js": "^1.14.3",
+    "graphql": "^16.13.2",
+    "jsonwebtoken": "^9.0.3",
+    "jwks-rsa": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
